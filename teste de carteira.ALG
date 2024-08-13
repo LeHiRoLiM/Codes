@@ -1,6 +1,6 @@
 Algoritmo "Teste de Carteira"
 // 
-// Descrição   : Teste para verificar se você pode dirigir.
+// DescriÃ§Ã£o   : Teste para verificar se vocÃª pode dirigir.
 // Data atual  : 9/7/24
 Var
 ano: inteiro
@@ -11,7 +11,7 @@ Inicio
 
 escreval("----------------------------------")
 escreval("----------------------------------")
-escreval("    DEPARTAMENTO DE TRÂNSITO      ")
+escreval("    DEPARTAMENTO DE TRÃ‚NSITO      ")
 escreval("----------------------------------")
 escreval("----------------------------------")
 escreval("                                  ")
@@ -26,21 +26,14 @@ leia(na)
 
 se(ano-na<= 17) entao
 escreval("                                  ")
-escreval("Infelismente ",nome," você ainda não é apto a dirigir")
+escreval("Infelismente ",nome," vocÃª ainda nÃ£o Ã© apto a dirigir")
 senao
      se(ano-na>=18) entao
        escreval("                           ")
-       escreval("Você está apto a dirigir ",nome)
+       escreval("VocÃª estÃ¡ apto a dirigir ",nome)
        fimse
 
 fimse
        
        
-       
-
-
-
-
-
-
 Fimalgoritmo
